@@ -6,7 +6,7 @@
 #  Trains a Tensorflow neural network model on a training data set.
 #
 # Use:
-#  - Requires Tensorflow 0.12 ( https://www.tensorflow.org ) and numpy
+#  - Requires Tensorflow r1.0 ( https://www.tensorflow.org ) and numpy
 #  - Input data (for either training or testing) should contain outputs in first column (e.g. Cluster number)
 #     and data in remaining columns (e.g. ribosomal protein transcript relative expression)
 
