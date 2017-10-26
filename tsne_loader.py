@@ -1,6 +1,4 @@
 # Copyright (C) James Dolezal - All Rights Reserved
-# Unauthorized copying of this file, via any medium is strictly prohibited
-# Proprietary and confidential
 # Written by James Dolezal <jmd172@pitt.edu>, July 2017
 # ==========================================================================
 #
