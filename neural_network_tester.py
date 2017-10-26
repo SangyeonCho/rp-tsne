@@ -57,7 +57,7 @@ def main(_):
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 
-	parser.add_argument('--data_dir', type=str, help='Directory for storing input data')
+	parser.add_argument('--data_dir', type=str, help='Directory for retrieving input data')
 	parser.add_argument('--model_dir', type=str, help='Model location')
 	parser.add_argument('--file', required=True, help='Training data filename')
 	parser.add_argument('--model', required=True, help='Model to load')
