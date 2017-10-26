@@ -5,4 +5,3 @@ These scripts require Tensorflow (https://www.tensorflow.org) and were both crea
 
 Written by James Dolezal <jmd172@pitt.edu>, July 2017.
 This code is Copyright (C) James Dolezal, with all rights reserved.
-==========================================================================
