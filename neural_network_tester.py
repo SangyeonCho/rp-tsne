@@ -2,7 +2,7 @@
 # Written by James Dolezal <jmd172@pitt.edu>, July 2017
 # ==========================================================================
 #
-# Neural network trainer
+# Neural network tester
 #  Evaluates performance of a saved Tensorflow neural network model on a test data set.
 #
 # Use:
