@@ -89,12 +89,8 @@ def main(_):
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
-	parser.add_argument('--fake_data', nargs='?', const=True, type=bool, default = False, help='If true, uses fake data for unit testing.')
-	parser.add_argument('--max_steps', type=int, default = 20000, help = 'Number of steps to run trainer.')
-	parser.add_argument('--learning_rate', type=float, default = 0.001, help='Initial learning rate')
-	parser.add_argument('--dropout', type=float, default = 0.9, help='Keep probability for training dropout.')
-	parser.add_argument('--data_dir', type=str, help='Directory for storing input data')
-	parser.add_argument('--log_dir', type=str, help='Summaries log directory')
+	parser.add_argument('--data_dir', type=str, help='Directory for retrieving input data')
+	parser.add_argument('--log_dir', type=str, help='Output log directory')
 	parser.add_argument('--file', required=True, help='Training data filename')
 	parser.add_argument('--meta', type=int, default = 1, help = 'Number of metadata columns')
 
