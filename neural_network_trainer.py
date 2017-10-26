@@ -5,6 +5,7 @@
 # ==========================================================================
 #
 # Neural network trainer
+#  Trains a Tensorflow neural network model on a training data set.
 #
 # Use:
 #  - Requires Tensorflow 0.12 ( https://www.tensorflow.org ) and numpy
